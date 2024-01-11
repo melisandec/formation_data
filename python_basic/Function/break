@@ -1,6 +1,0 @@
-nombre = 0
-while True:
-    print(nombre)
-    nombre += 1
-    if nombre > 5:
-        break

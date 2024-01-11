@@ -1,0 +1,5 @@
+# Utilisation de continue pour sauter une itération dans une boucle for
+for nombre in range(10):
+    if nombre % 2 == 0:
+        continue
+    print(nombre)

@@ -1,0 +1,22 @@
+def say_hello():
+    """Retourne le mot bonjour à l'utilisateur """
+    print("BONJOUR")
+
+
+def say_hello_name(name):
+    """ Retourne le mot bonjour + le nom de la personne"""
+
+    print("Bonjour " + name) #bonjour + nom de la personne
+
+#say_hello_name("Melissandre")
+#say_hello_name("Nathan")
+
+
+def addition(num1,num2):
+    somme = num1 +num2
+    return somme
+
+
+resultat = addition(5,6)
+print(resultat)
+

@@ -1,0 +1,6 @@
+nom = "Alice"
+age = 30
+
+# Utilisation des f-strings pour formater une chaîne avec des variables
+message = f"Bonjour, je m'appelle {nom} et j'ai {age} ans."
+print(message)
